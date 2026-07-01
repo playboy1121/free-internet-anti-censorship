@@ -50,7 +50,6 @@
 ### 1. Xray + Reality 配置示例
 
 ```yaml
----
 inbounds:
   - port: 443
     protocol: vless
@@ -68,10 +67,11 @@ inbounds:
         serverNames: ["www.microsoft.com"]
         privateKey: "你的私钥"
         shortIds: ["0123456789abcdef"]
-
+```
 ### 2. Hysteria2 服务端配置示例
 
-YAMLlisten: :443
+```yaml
+listen: :443
 acme:
   domains:
     - yourdomain.com
@@ -82,7 +82,7 @@ masquerade:
   proxy:
     protocol: http
     addr: 127.0.0.1:8080
-
+```
 ### 3. 客户端推荐组合
 
 Windows / macOS：Nekobox / v2rayN / Hiddify
