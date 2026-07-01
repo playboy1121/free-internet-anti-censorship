@@ -49,7 +49,8 @@
 
 ### 1. Xray + Reality 配置示例
 
-
+```yaml
+---
 inbounds:
   - port: 443
     protocol: vless
