@@ -100,7 +100,7 @@ iOS：Streisand / Shadowrocket（需美区账号）
 低检测 + 高可用 方案设计
 
 无论是个人长期稳定使用，还是企业级批量部署，我都能根据具体封锁环境提供针对性解决方案。
-技术栈：Golang、Rust、Dart (Flutter)、C++（核心内核）、Docker / Kubernetes 等。
+技术栈：Golang、Java、python、 Rust、Dart (Flutter)、C++（核心内核）、Docker / Kubernetes 等。
 联系我获取专业支持
 需要：
 
