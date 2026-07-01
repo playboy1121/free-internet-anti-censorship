@@ -67,9 +67,9 @@ inbounds:
         serverNames: ["www.microsoft.com"]
         privateKey: "你的私钥"
         shortIds: ["0123456789abcdef"]
-```yaml
+
 ### 2. Hysteria2 服务端配置示例
-```yaml
+
 YAMLlisten: :443
 acme:
   domains:
@@ -81,7 +81,7 @@ masquerade:
   proxy:
     protocol: http
     addr: 127.0.0.1:8080
-```yaml
+
 ### 3. 客户端推荐组合
 
 Windows / macOS：Nekobox / v2rayN / Hiddify
